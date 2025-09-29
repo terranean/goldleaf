@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>GoldLeaf Savory & Sweet</title>
+	<link rel="icon" type="image/x-icon" href="favicon-32x32.png">
+	<style>
+		@font-face {
+			font-family: "VisionHeavy";
+			src: url("Vision-Heavy.otf"),
+		}
+
+		body {
+			background-color: #2a2824;
+			font-family: "VisionHeavy", sans-serif;
+			font-weight: 700;
+			font-size: 32px;
+			text-align: center;
+			text-transform: uppercase;
+		}
+
+		header {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			padding: 32px;
+		}
+
+		main,
+		main a {
+			color: white;
+			text-decoration: none;
+		}
+
+		main {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+
+		#wrap-logo {
+			/* display */
+		}
+
+		#wrap-logo img {
+			max-width: 300px;
+		}
+
+		#wrap-contact {
+			padding-bottom: 24px;
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+		}
+
+		@media screen and (max-width: 480px) {
+			#wrap-contact {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+			}
+			body {
+				font-size: 28px;
+			}
+			#wrap-contact img {
+				padding-right: 16px;
+				max-height: 32px;
+			}
+			#wrap-contact > div {
+				padding-bottom: 16px;
+			}
+		}
+
+		#wrap-contact > div {
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+		}
+
+		#contact-spacer {
+			width: 200px;
+		}
+
+		#wrap-menu {
+			max-width: 100%;
+		}
+
+		#wrap-menu img {
+			max-width: 94%;
+
+		}
+
+		#wrap-social {
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			justify-content: space-between;
+			width: 100%;
+			max-width: 600px;
+		}
+		.icon-wrap img {
+			max-height: 50px;
+			/* padding-right: 32px; */
+		}
+		#wrap-contact img {
+			padding-right: 32px;
+		}
+
+		footer {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			padding: 80px 32px 12px;
+			font-size: 18px;
+			color: white;
+		}
+		#copyright {
+			padding-top: 48px;
+		}
+	</style>
+</head>
+
+<body>
+	<header>
+		<div id="wrap-logo">
+			<img src="gold_leaf_logo.png">
+		</div>
+	</header>
+	<main>
+		<div id="wrap-contact">
+			<div>
+				<div class="icon-wrap">
+					<img src="phone.png" />
+				</div>
+				<div>
+					<a href="tel:13176003542">
+						317-600-3542
+					</a>
+				</div>
+			</div>
+			<div id="contact-spacer">
+			</div>
+			<div>
+				<div class="icon-wrap">
+					<img src="location.png" />
+				</div>
+				<div>
+					1901 E 46th St. Ste 1<br>
+					Indy, IN 46205
+				</div>
+			</div>
+		</div>
+		<div id="wrap-menu">
+			<!-- menu -->
+			<img src="gold_leaf_menu_summer_25.png">
+		</div>
+	</main>
+	<footer>
+		<div id="wrap-social">
+			<!-- social links -->
+			 <div class="icon-wrap">
+				<a href="https://www.facebook.com/goldleafindy/" target="_blank">
+					<img src="fb.png" />
+				</a>
+			 </div>
+			 <div class="icon-wrap">
+				<a href="https://www.instagram.com/goldleafindy/" target="_blank">
+					<img src="insta.png" />
+				</a>
+			 </div>
+			 <div class="icon-wrap">
+				<a href="https://maps.app.goo.gl/KKwmMeggFocpt5CZ8" target="_blank">
+					<img src="map.png" />
+				</a>
+			 </div>
+		</div>
+		<div id="copyright">
+			© <script>document.write(new Date().getFullYear())</script> GoldLeaf Savory & Sweet
+		</div>
+	</footer>
+</body>
+
+</html>
