@@ -62,7 +62,7 @@
 				align-items: center;
 			}
 			body {
-				font-size: 28px;
+				font-size: 24px;
 			}
 			#wrap-contact img {
 				padding-right: 16px;
@@ -70,6 +70,9 @@
 			}
 			#wrap-contact > div {
 				padding-bottom: 16px;
+			}
+			#wrap-logo img {
+				max-width: 240px;
 			}
 		}
 
@@ -119,6 +122,21 @@
 		#copyright {
 			padding-top: 48px;
 		}
+
+		#wrap-hours {
+			padding: 48px 0;
+		}
+		#wrap-hours .day {
+			display: flex;
+			flex-direction: row;
+			text-align: right;
+			justify-content: space-between;
+		}
+
+		#wrap-hours .day>div {
+			text-align: left;
+			padding-right: 24px;
+		}
 	</style>
 </head>
 
@@ -152,14 +170,36 @@
 				</div>
 			</div>
 		</div>
+		<div id="wrap-hours">
+			<!-- ADD HOURS -->
+			<div class="day">
+			   <div>Monday</div><div>7am - 9pm</div>
+			</div>
+			<div class="day">
+			   <div>Tuesday</div><div>7am - 3pm</div>
+			</div>
+			<div class="day">
+			   <div>Wednesday</div><div>7am - 3pm</div>
+			</div>
+			<div class="day">
+			   <div>Thursday</div><div>7am - 3pm</div>
+			</div>
+			<div class="day">
+			   <div>Friday</div><div>7am - 7pm</div>
+			</div>
+			<div class="day">
+			   <div>Saturday</div><div>9am - 3pm</div>
+			</div>
+			<div class="day">
+			   <div>Sunday</div><div>10am - 1pm</div>
+			</div>
+		</div>
 		<div id="wrap-menu">
-			<!-- menu -->
 			<img src="gold_leaf_menu_summer_25.png">
 		</div>
 	</main>
 	<footer>
 		<div id="wrap-social">
-			<!-- social links -->
 			 <div class="icon-wrap">
 				<a href="https://www.facebook.com/goldleafindy/" target="_blank">
 					<img src="fb.png" />
